@@ -1,5 +1,7 @@
+import "./SBI1.css"
+
 export default function SBI1() {
     return (
-        <>SBI I</>
+        <div className="text">SBI Text</div>
     )
 }
