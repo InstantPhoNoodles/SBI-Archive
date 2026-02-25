@@ -12,7 +12,7 @@ function App() {
 
       <div className='app-container'>
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/SBI-Archive' element={<Home />} />
           <Route path='/SBI1' element={<SBI1 />} />
           <Route path='/Players' element={<Players />} />
         </Routes>
