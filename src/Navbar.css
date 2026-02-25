@@ -1,0 +1,50 @@
+.navbar {
+    font-family: "Lexend Deca", sans-serif;
+    height: 100px;
+    padding: 0 10% 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.navbar img {
+    height: 100px;
+    width: auto;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-weight: 500;
+}
+
+.logo-link {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.nav-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    height: 100%;
+}
+
+.nav-link {
+    padding: 0 2rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: gray;
+}

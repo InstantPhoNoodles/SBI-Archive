@@ -1,0 +1,29 @@
+.PlayersPage {
+    background-color: white;
+    
+}
+
+.PlayersPageBanner {
+    height: 250px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.PlayersPageBanner h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 80px;
+    font-family: "Lexend Deca", sans-serif;
+    color: white;
+}
+
+.PlayerCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 10% 5% 10%;
+    gap: 5rem;
+}

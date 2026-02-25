@@ -1,0 +1,11 @@
+.banner {
+    font-family: "Lexend Deca", sans-serif;
+    text-align: center;
+    padding: 5rem;
+    background-color: white;
+    color: black;
+}
+
+img {
+    width: 100%;
+}

@@ -1,0 +1,16 @@
+.player-card {
+  font-family: "Lexend Deca", sans-serif;
+  width: 300px;
+  height: auto;
+  background-color: #111;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+.player-image {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
