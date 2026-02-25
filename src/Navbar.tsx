@@ -18,6 +18,7 @@ export default function Navbar() {
                 <li><Link to="/SBI-Archive/SBI1" className="nav-link">SBI V</Link></li>
                 <li><Link to="/SBI-Archive/Players" className="nav-link">Players</Link></li>
                 <li><Link to="/SBI-Archive/SBI1" className="nav-link">Teams</Link></li>
+                <li><Link to="/SBI-Archive/SBI1" className="nav-link">Games</Link></li>
                 <li><Link to="/SBI-Archive/SBI1" className="nav-link">Stats</Link></li>
             </ul>
         </nav>
