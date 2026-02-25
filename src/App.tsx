@@ -13,8 +13,8 @@ function App() {
       <div className='app-container'>
         <Routes>
           <Route path='/SBI-Archive' element={<Home />} />
-          <Route path='/SBI1' element={<SBI1 />} />
-          <Route path='/Players' element={<Players />} />
+          <Route path='/SBI-Archive/SBI1' element={<SBI1 />} />
+          <Route path='/SBI-Archive/Players' element={<Players />} />
         </Routes>
       </div>
     </>
