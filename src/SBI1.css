@@ -1,6 +1,50 @@
-.text {
-    padding: 10% 10% 0 10%;
+.SBI1Page {
+    background-color: white;
     font-family: "Lexend Deca", sans-serif;
+}
+
+.TeamNameBanner {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.TeamNameBanner h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 80px;
     color: white;
-    font-size: 40px;
+}
+
+.TeamNameBanner h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    color: white;
+}
+
+.TeamsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem 10% 10% 10%;
+    gap: 1rem;
+}
+
+.TeamsContainer h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.NTRContainer {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.OFContainer {
+    display: flex;
+    gap: 0.5rem;
 }

@@ -26,9 +26,9 @@ export default function Players() {
                 <PlayerCard name="Choke" image={Jevoni} />
                 <PlayerCard name="Toyote" image={Gabe} />
                 <PlayerCard name="Suckonemvulvavic " image={Victor} />
-                <PlayerCard name="Cleo" image={Sarah} />
+                <PlayerCard name="ZeroAcesLeft" image={Sarah} />
                 <PlayerCard name="Kenma" image={Ken} />
-                <PlayerCard name="Bracket" image={Mirza} />
+                <PlayerCard name="Futaboy" image={Mirza} />
                 <PlayerCard name="Sheen" image={Sean} />
             </div>
         </div>
