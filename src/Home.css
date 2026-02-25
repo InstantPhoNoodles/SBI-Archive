@@ -1,9 +1,17 @@
 .banner {
     font-family: "Lexend Deca", sans-serif;
     text-align: center;
-    padding: 5rem;
+    padding: 7rem;
     background-color: white;
     color: black;
+}
+
+.next {
+    font-family: "Lexend Deca", sans-serif;
+    text-align: center;
+    padding: 7rem;
+    background-color: black;
+    color: white;
 }
 
 img {
