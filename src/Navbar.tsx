@@ -12,7 +12,7 @@ export default function Navbar() {
             
             <ul className="nav-links">
                 <li><Link to="/SBI-Archive/SBI1" className="nav-link">SBI I</Link></li>
-                <li><Link to="/SBI-Archive/SBI1" className="nav-link">SBI II</Link></li>
+                <li><Link to="/SBI-Archive/SBI2" className="nav-link">SBI II</Link></li>
                 <li><Link to="/SBI-Archive/SBI1" className="nav-link">SBI III</Link></li>
                 <li><Link to="/SBI-Archive/SBI1" className="nav-link">SBI IV</Link></li>
                 <li><Link to="/SBI-Archive/SBI1" className="nav-link">SBI V</Link></li>

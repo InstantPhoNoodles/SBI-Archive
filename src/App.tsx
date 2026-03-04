@@ -4,6 +4,7 @@ import SBI1 from "./SBI1"
 import Players from "./Players"
 import Navbar from './Navbar'
 import { Route, Routes } from 'react-router-dom'
+import SBI2 from "./SBI2"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path='/SBI-Archive' element={<Home />} />
           <Route path='/SBI-Archive/SBI1' element={<SBI1 />} />
+          <Route path='/SBI-Archive/SBI2' element={<SBI2 />} />
           <Route path='/SBI-Archive/Players' element={<Players />} />
         </Routes>
       </div>
