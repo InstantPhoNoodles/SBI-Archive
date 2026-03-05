@@ -11,10 +11,34 @@
   border-radius: 10px;
 }
 
+.player-image-container {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+  overflow: hidden;
+}
+
 .player-image {
   width: inherit;
   height: inherit;
   object-fit: cover;
+}
+
+.player-info-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 334px;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
 }
 
 .player-card.with-border {

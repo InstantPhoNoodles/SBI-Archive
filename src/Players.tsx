@@ -25,24 +25,24 @@ export default function Players() {
             </div>
 
             <div className="PlayerCardContainer">
-                <PlayerCard name="Choke" image={Jevoni} rings="☆ ☆ ☆" border={true} borderColor="goldenrod"/>
-                <PlayerCard name="Coby" image={Coby} rings="☆ ☆ ☆" border={true} borderColor="goldenrod"/>
-                <PlayerCard name="Yaastoevsky" image={Dylan} rings="☆ ☆ ☆" border={true} borderColor="goldenrod"/>
-                <PlayerCard name="Kino" image={Kino} rings="☆ ☆ ☆" border={true} borderColor="goldenrod"/>
+                <PlayerCard name="Choke" image={Jevoni} rings="☆ ☆ ☆" borderColor="goldenrod" info="Mickey Mouse Hall of Famer"/>
+                <PlayerCard name="Coby" image={Coby} rings="☆ ☆ ☆" borderColor="goldenrod" info="goat"/>
+                <PlayerCard name="Yaastoevsky" image={Dylan} rings="☆ ☆ ☆" borderColor="goldenrod" info="beautiful"/>
+                <PlayerCard name="Kino" image={Kino} rings="☆ ☆ ☆" borderColor="goldenrod" info="cho gath"/>
 
-                <PlayerCard name="Toyote" image={Gabe} rings="☆☆" borderColor="silver"/>
-                <PlayerCard name="Munson" image={Munson} rings="☆☆" borderColor="silver"/>
+                <PlayerCard name="Toyote" image={Gabe} rings="☆☆" borderColor="silver" info="gorgeous"/>
+                <PlayerCard name="Munson" image={Munson} rings="☆☆" borderColor="silver" info="bard"/>
 
-                <PlayerCard name="Swegy" image={Lance} rings="☆" borderColor="rgb(204, 92, 0)"/>
-                <PlayerCard name="Kenma" image={Ken} rings="☆" borderColor="rgb(204, 92, 0)"/>
-                <PlayerCard name="Futaboy" image={Mirza} rings="☆" borderColor="rgb(204, 92, 0)"/>
-                <PlayerCard name="Marcy" image={Marcy} rings="☆" borderColor="rgb(204, 92, 0)"/>
-                <PlayerCard name="Colada" image={Rohan} rings="☆" borderColor="rgb(204, 92, 0)"/>
-                <PlayerCard name="Sheen" image={Sean} rings="☆" borderColor="rgb(204, 92, 0)"/>
-                <PlayerCard name="Squidlette" image={Naomi} rings="☆" borderColor="rgb(204, 92, 0)"/>
+                <PlayerCard name="Swegy" image={Lance} rings="☆" borderColor="rgb(204, 92, 0)" info="white boy with motion"/>
+                <PlayerCard name="Kenma" image={Ken} rings="☆" borderColor="rgb(204, 92, 0)" info="kenmanutfitinhermouth?"/>
+                <PlayerCard name="Futaboy" image={Mirza} rings="☆" borderColor="rgb(204, 92, 0)" info="pedo"/>
+                <PlayerCard name="Marcy" image={Marcy} rings="☆" borderColor="rgb(204, 92, 0)" info="lucifer"/>
+                <PlayerCard name="Colada" image={Rohan} rings="☆" borderColor="rgb(204, 92, 0)" info="indian"/>
+                <PlayerCard name="Sheen" image={Sean} rings="☆" borderColor="rgb(204, 92, 0)" info="beloved"/>
+                <PlayerCard name="Squidlette" image={Naomi} rings="☆" borderColor="rgb(204, 92, 0)" info="naomi??"/>
                 
-                <PlayerCard name="Suckonemvulvavic " image={Victor} rings="-" borderColor="black"/>
-                <PlayerCard name="ZeroAcesLeft" image={Sarah} rings="-" borderColor="black"/>
+                <PlayerCard name="Suckonemvulvavic " image={Victor} rings="-" borderColor="black" info="deceased"/>
+                <PlayerCard name="ZeroAcesLeft" image={Sarah} rings="-" borderColor="black" info="lost top lane"/>
             </div>
         </div>
     )
