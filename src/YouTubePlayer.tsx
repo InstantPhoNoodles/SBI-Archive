@@ -2,7 +2,6 @@ interface YouTubePlayerProps {
   videoId: string;
 }
 
-
 export default function YouTubePlayer({ videoId }: YouTubePlayerProps) {
   return (
     <div className="p-500">

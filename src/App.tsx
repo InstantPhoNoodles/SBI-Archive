@@ -2,6 +2,7 @@ import "./App.css"
 import Home from "./Home"
 import SBI1 from "./SBI1"
 import Players from "./Players"
+import Replays from "./Replays"
 import Navbar from './Navbar'
 import { Route, Routes } from 'react-router-dom'
 import SBI2 from "./SBI2"
@@ -17,6 +18,7 @@ function App() {
           <Route path='/SBI-Archive/SBI1' element={<SBI1 />} />
           <Route path='/SBI-Archive/SBI2' element={<SBI2 />} />
           <Route path='/SBI-Archive/Players' element={<Players />} />
+          <Route path='/SBI-Archive/Replays' element={<Replays />} />
         </Routes>
       </div>
     </>

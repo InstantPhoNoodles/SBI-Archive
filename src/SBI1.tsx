@@ -20,7 +20,7 @@ export default function SBI1() {
             </div>
 
             <div className="TeamsContainer">
-                <div><h1>NTR</h1></div>
+                <div><h1>Team NTR</h1></div>
                 <div className="NTRContainer">
                     <PlayerCard name="Yaastoevsky" image={Dylan} />
                     <PlayerCard name="Choke" image={Jevoni} />
@@ -29,7 +29,7 @@ export default function SBI1() {
                     <PlayerCard name="Kino" image={Kino} />
                 </div>
 
-                <div><h1>OF</h1></div>
+                <div><h1>Team OF</h1></div>
                 <div className="OFContainer">
                     <PlayerCard name="Swegy" image={Lance} />
                     <PlayerCard name="ZeroAcesLeft" image={Sarah} />

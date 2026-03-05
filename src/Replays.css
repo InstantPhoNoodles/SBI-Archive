@@ -1,0 +1,24 @@
+.ReplaysPage {
+    background-color: white;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.Banner {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.ReplayContainer {
+    padding: 1.5rem 10% 10% 10%;
+}
+
+.Banner h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 80px;
+    color: white;
+}
