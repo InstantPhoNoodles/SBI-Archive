@@ -23,7 +23,7 @@ export default function PlayerCard({ name, image, rings, border, borderColor, in
         {showInfo && <div className="player-info-overlay">{info}</div>}
       </div>
       <h3>{name}</h3>
-      <h3>{rings}</h3>
+      <h3 className="stars">{rings}</h3>
     </div>
   );
 }
