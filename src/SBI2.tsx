@@ -5,12 +5,13 @@ import Lance from "/lance_cropped.jpg";
 import Dylan from "/dylan.jpg";
 import Jevoni from "/jevoni.jpg";
 import Gabe from "/gabe.jpg";
-import Sarah from "/sarah.jpg";
-import Sean from "/sean.jpg";
+import Christian from "/pyke.jpg";
 import Ken from "/ken.jpg";
 import Mirza from "/mirza.jpg";
-import Marcy from "/marcy.jpg";
+import Victor from "/victor.jpg";
+import Rohan from "/rohan.jpg";
 import Kino from "/Faker_2020.jpg";
+
 
 export default function SBI2() {
     return (
@@ -26,17 +27,17 @@ export default function SBI2() {
                     <PlayerCard name="Yaastoevsky" image={Dylan} />
                     <PlayerCard name="Choke" image={Jevoni} />
                     <PlayerCard name="Toyote" image={Gabe} />
-                    <PlayerCard name="Marcy" image={Marcy} />
-                    <PlayerCard name="Kino" image={Kino} />
+                    <PlayerCard name="Futaboy" image={Mirza} />
+                    <PlayerCard name="Colada" image={Rohan} />
                 </div>
 
                 <div><h1>Team NTR</h1></div>
                 <div className="OFContainer">
                     <PlayerCard name="Swegy" image={Lance} />
-                    <PlayerCard name="ZeroAcesLeft" image={Sarah} />
-                    <PlayerCard name="Sheen" image={Sean} />
+                    <PlayerCard name="Suckonemvulvavic" image={Victor} />
+                    <PlayerCard name="Christian" image={Christian} />
                     <PlayerCard name="Kenma" image={Ken} />
-                    <PlayerCard name="Futaboy" image={Mirza} />
+                    <PlayerCard name="Kino" image={Kino} />
                 </div>
 
                 <div><h1>SBI 2 Pre-Game Interview</h1></div>
