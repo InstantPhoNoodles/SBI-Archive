@@ -24,35 +24,34 @@ export default function SBI2() {
             <div className="TeamsContainer">
                 <div><h1>Team HRT</h1></div>
                 <div className="NTRContainer">
-                    <PlayerCard name="Yaastoevsky" image={Dylan} />
-                    <PlayerCard name="Choke" image={Jevoni} />
-                    <PlayerCard name="Toyote" image={Gabe} />
-                    <PlayerCard name="Futaboy" image={Mirza} />
-                    <PlayerCard name="Colada" image={Rohan} />
+                    <PlayerCard name="Yaastoevsky" image={Dylan} borderColor="black"/>
+                    <PlayerCard name="Choke" image={Jevoni} borderColor="black"/>
+                    <PlayerCard name="Toyote" image={Gabe} borderColor="black"/>
+                    <PlayerCard name="Futaboy" image={Mirza} borderColor="black"/>
+                    <PlayerCard name="Colada" image={Rohan} borderColor="black"/>
                 </div>
 
-                <div><h1>Team NTR</h1></div>
+                <div><h1>Team ICE</h1></div>
                 <div className="OFContainer">
-                    <PlayerCard name="Swegy" image={Lance} />
-                    <PlayerCard name="Suckonemvulvavic" image={Victor} />
-                    <PlayerCard name="Christian" image={Christian} />
-                    <PlayerCard name="Kenma" image={Ken} />
-                    <PlayerCard name="Kino" image={Kino} />
+                    <PlayerCard name="Swegy" image={Lance} borderColor="black"/>
+                    <PlayerCard name="Suckonemvulvavic" image={Victor} borderColor="black"/>
+                    <PlayerCard name="Christian" image={Christian}  borderColor="black"/>
+                    <PlayerCard name="Kenma" image={Ken} borderColor="black"/>
+                    <PlayerCard name="Kino" image={Kino} borderColor="black"/>
                 </div>
-
-                <div><h1>SBI 2 Pre-Game Interview</h1></div>
-                <YouTubePlayer videoId="5UluUYEOeBU?si=Y2L_1Oi8_3xyoSQs"></YouTubePlayer>
-
-                <div><h1>SBI 2 Game 1 + Draft</h1></div>
-                <YouTubePlayer videoId="fBq-YBGmC2M?si=WRREe495Zwk9opML"></YouTubePlayer>
-
-                <div><h1>SBI 2 Game 2 + Draft + Post-Game</h1></div>
-                <YouTubePlayer videoId="G6IAH0UkLYo?si=OIC9lCmyM4FfFZ6Z"></YouTubePlayer>
-
-                <div><h1>SBI 2 Draft 3</h1></div>
-                <YouTubePlayer videoId="BH4xQw27y90?si=Olk3miwm99yxFlVS"></YouTubePlayer>
-                
             </div>
+
+            <div><h1>SBI 2 Pre-Game Interview</h1></div>
+            <YouTubePlayer videoId="5UluUYEOeBU?si=Y2L_1Oi8_3xyoSQs"></YouTubePlayer>
+
+            <div><h1>SBI 2 Game 1 + Draft</h1></div>
+            <YouTubePlayer videoId="fBq-YBGmC2M?si=WRREe495Zwk9opML"></YouTubePlayer>
+
+            <div><h1>SBI 2 Game 2 + Draft + Post-Game</h1></div>
+            <YouTubePlayer videoId="G6IAH0UkLYo?si=OIC9lCmyM4FfFZ6Z"></YouTubePlayer>
+
+            <div><h1>SBI 2 Draft 3</h1></div>
+            <YouTubePlayer videoId="BH4xQw27y90?si=Olk3miwm99yxFlVS"></YouTubePlayer>
         </div>
     )
 }

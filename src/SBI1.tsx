@@ -22,20 +22,20 @@ export default function SBI1() {
             <div className="TeamsContainer">
                 <div><h1>Team NTR</h1></div>
                 <div className="NTRContainer">
-                    <PlayerCard name="Yaastoevsky" image={Dylan} />
-                    <PlayerCard name="Choke" image={Jevoni} />
-                    <PlayerCard name="Toyote" image={Gabe} />
-                    <PlayerCard name="Marcy" image={Marcy} />
-                    <PlayerCard name="Kino" image={Kino} />
+                    <PlayerCard name="Yaastoevsky" image={Dylan} borderColor="black"/>
+                    <PlayerCard name="Choke" image={Jevoni} borderColor="black"/>
+                    <PlayerCard name="Toyote" image={Gabe} borderColor="black"/>
+                    <PlayerCard name="Marcy" image={Marcy} borderColor="black"/>
+                    <PlayerCard name="Kino" image={Kino} borderColor="black"/>
                 </div>
 
                 <div><h1>Team OF</h1></div>
                 <div className="OFContainer">
-                    <PlayerCard name="Swegy" image={Lance} />
-                    <PlayerCard name="ZeroAcesLeft" image={Sarah} />
-                    <PlayerCard name="Sheen" image={Sean} />
-                    <PlayerCard name="Kenma" image={Ken} />
-                    <PlayerCard name="Futaboy" image={Mirza} />
+                    <PlayerCard name="Swegy" image={Lance} borderColor="black"/>
+                    <PlayerCard name="ZeroAcesLeft" image={Sarah} borderColor="black"/>
+                    <PlayerCard name="Sheen" image={Sean} borderColor="black"/>
+                    <PlayerCard name="Kenma" image={Ken} borderColor="black"/>
+                    <PlayerCard name="Futaboy" image={Mirza} borderColor="black"/>
                 </div>
             </div>
         </div>
