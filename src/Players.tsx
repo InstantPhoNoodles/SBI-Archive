@@ -42,7 +42,7 @@ export default function Players() {
                 <PlayerCard name="Squidlette" image={Naomi} rings="☆" borderColor="rgb(204, 92, 0)" info="naomi??"/>
                 
                 <PlayerCard name="Suckonemvulvavic " image={Victor} rings="-" borderColor="black" info="deceased"/>
-                <PlayerCard name="ZeroAcesLeft" image={Sarah} rings="-" borderColor="black" info="lost top lane"/>
+                <PlayerCard name="ZeroAcesLeft" image={Sarah} rings="-" borderColor="black" info="the fallen one"/>
             </div>
         </div>
     )
