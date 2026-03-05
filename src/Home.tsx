@@ -1,6 +1,6 @@
 import "./Home.css"
 import faker from "/1342889.jpeg";
-import YouTubePlayer from "./YoutubePlayer";
+import YouTubePlayer from "./YouTubePlayer";
 
 export default function Home() {
     return (

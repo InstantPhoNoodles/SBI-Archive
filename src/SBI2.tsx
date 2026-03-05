@@ -1,5 +1,5 @@
 import PlayerCard from "./PlayerCard"
-import YouTubePlayer from "./YoutubePlayer";
+import YouTubePlayer from "./YouTubePlayer";
 import "./SBI1.css"
 import Lance from "/lance_cropped.jpg";
 import Dylan from "/dylan.jpg";
