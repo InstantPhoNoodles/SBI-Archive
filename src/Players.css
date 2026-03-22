@@ -20,9 +20,31 @@
 
 .PlayerCardContainer {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h2 {
+    margin: 2.5rem;
+    padding: 0;
+    font-size: 70px;
+    font-family: "Playfair Display SC", serif;
+    color: goldenrod;
+}
+
+.hall_of_fame, .players {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 3% 10% 5% 10%;
+    padding: 0 10% 2.5% 10%;
     gap: 5rem;
+}
+
+.divider {
+  width: 80%;
+  height: 2px;
+  background-color: goldenrod;
+  margin: 0 0 2.5% 0;
 }
